@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "cyberine-tabstatus",
+  "version": "0.1.0",
+  "description": "Shows each Claude Code session's state on its iTerm2 tab and in the Session Status tool: Working while Claude runs, Waiting when it needs a permission or has finished its turn. Works inside tmux through passthrough.",
+  "author": {
+    "name": "Nia D Pham",
+    "email": "xinchao@nghia-pham.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "iterm2",
+    "tmux",
+    "status",
+    "tabs",
+    "notifications",
+    "productivity"
+  ],
+  "displayName": "Cyberine Tab Status"
+}
