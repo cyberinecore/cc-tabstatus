@@ -19,12 +19,21 @@ A tab with several panes shows the most urgent status among them. The Session St
 
 ## Install
 
+Inside Claude Code:
+
 ```
-claude plugin marketplace add /path/to/cc-tabstatus
+/plugin marketplace add cyberinecore/cc-tabstatus
+/plugin install cyberine-tabstatus@cyberine-tabstatus
+```
+
+Or from a shell:
+
+```
+claude plugin marketplace add cyberinecore/cc-tabstatus
 claude plugin install cyberine-tabstatus@cyberine-tabstatus
 ```
 
-Or for one session: `claude --plugin-dir /path/to/cc-tabstatus`.
+From a local clone: `claude plugin marketplace add /path/to/cc-tabstatus`, or for one session `claude --plugin-dir /path/to/cc-tabstatus`.
 
 ## How it works
 

@@ -7,6 +7,8 @@
     "name": "Nia D Pham",
     "email": "xinchao@nghia-pham.com"
   },
+  "homepage": "https://github.com/cyberinecore/cc-tabstatus",
+  "repository": "https://github.com/cyberinecore/cc-tabstatus",
   "license": "MIT",
   "keywords": [
     "iterm2",
