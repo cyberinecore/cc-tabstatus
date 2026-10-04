@@ -9,6 +9,7 @@
   },
   "homepage": "https://github.com/cyberinecore/cc-tabstatus",
   "repository": "https://github.com/cyberinecore/cc-tabstatus",
+  "privacyPolicyUrl": "https://github.com/cyberinecore/cc-tabstatus/blob/main/PRIVACY.md",
   "license": "MIT",
   "keywords": [
     "iterm2",

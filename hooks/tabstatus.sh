@@ -16,10 +16,12 @@ else
   out=''
   pid=$$
   while [ -n "$pid" ] && [ "$pid" -gt 1 ]; do
-    set -- $(ps -o ppid=,tty= -p "$pid" 2>/dev/null)
-    case "$2" in
-      ''|'??') pid=$1 ;;
-      *) out="/dev/$2"; break ;;
+    read -r ppid tty <<EOF
+$(ps -o ppid=,tty= -p "$pid" 2>/dev/null)
+EOF
+    case "$tty" in
+      ''|'?'|'??') pid=$ppid ;;
+      *) out="/dev/$tty"; break ;;
     esac
   done
   seq=$(printf '\033]21337;%s\033\\' "$body")
